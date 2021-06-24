@@ -1,0 +1,83 @@
+/* /* * {
+    margin: 0;
+    padding: 0;
+} */
+
+/* .paragraph-one::first-letter {
+    color: red;
+}
+
+.paragraph-two::first-line {
+    text-decoration: underline;
+} */
+
+/*a::before {
+    content: '❤';
+}*/
+
+/* a:hover::before {
+    content: '❤';
+} */
+
+/*a::after {
+    content: '';
+}*/
+
+/* Especificidad */
+
+/* !important: destaca o prioriza esta declaracion */
+
+/* a {
+    color: black !important;
+} */
+
+/* Estilos en linea: en la etiqueta del HTML (no es buena practica usarlo) */
+
+/* #enlace {
+
+}
+
+.class {
+
+} */
+
+
+/* Unidades absolutas */
+/* .paragraph-two::first-line {
+    font-size: 40px;
+} */
+
+/* Unidades relativas- REM */
+
+/* html {
+    font-size: 20px;
+}
+
+.paragraph-one {
+    font-size: 1rem;
+} */
+
+
+/* EM hace referencia al valor del tamaño de fuente del navegador */
+/* .paragraph-one {
+    font-size: 4em;
+} */
+
+h1 {
+    /* padding: 50px; */
+
+    /* padding-top: 80px;
+    padding-right: 20px;
+    padding-bottom: 42;
+    padding-left: 10px; */
+
+    /* padding: 80px 20px 42px 10px; */
+
+    padding: 80px 20px;
+}
+
+p{
+    margin: 0 20px 90x 18px;
+    border: 1px solid black ;
+}
+
